@@ -25,3 +25,11 @@ source env/bin/activate
 git clone https://github.com/pytorch/vision
 python setup.py install
 ```
+# VSCode installation
+```
+wget https://update.code.visualstudio.com/1.65.2/linux-deb-arm64/stable -O stable.deb
+sudo dpkg -i stable.deb
+```
+
+# Setup ipykernel for jupyter notebook vscode
+https://anbasile.github.io/posts/2017-06-25-jupyter-venv/ 
