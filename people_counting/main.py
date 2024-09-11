@@ -6,7 +6,7 @@ import cv2
 model = YOLO('yolov8n.pt')
 
 # Open the video file
-video_path = 1
+video_path = './demo-me2.mp4'
 cap = cv2.VideoCapture(video_path)
 
 # Loop through the video frames
